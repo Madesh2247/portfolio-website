@@ -57,7 +57,7 @@
       pointer-events: auto;
     }
 
-    /* Ultra-High Contrast Premium Glass Elements (Avoids text fading) */
+    /* Ultra-High Contrast Premium Glass Elements */
     .glass-card {
       background: rgba(15, 15, 22, 0.93);
       backdrop-filter: blur(20px);
@@ -105,7 +105,7 @@
       transform: translateZ(40px);
     }
 
-    /* Premium Deep Dark Buttons (Avoid Light Themes) */
+    /* Premium Deep Dark Buttons */
     .btn-dark-premium {
       background: #0b0f17;
       color: #ffffff;
@@ -230,16 +230,45 @@
   </section>
 
   <!-- CERTIFICATIONS SECTION -->
-  <section id="certifications" class="py-24 px-6 container mx-auto max-w-5xl">
+  <section id="certifications" class="py-24 px-6 container mx-auto max-w-6xl">
     <div class="text-center mb-12" data-aos="fade-up">
       <i class="fa-solid fa-award text-5xl text-yellow-400 mb-4 animate-bounce"></i>
       <h2 class="text-4xl font-black text-white tracking-wide">Professional Credentials</h2>
       <p class="text-yellow-300 font-medium mt-2">Verified Academic & Industry Accomplishments</p>
     </div>
 
-    <div class="grid md:grid-cols-3 gap-6">
-      <!-- Certification 1: Java NPTEL -->
-      <div class="glass-card rounded-3xl p-6 flex flex-col justify-between border border-yellow-400/20 shadow-xl" data-aos="fade-up" data-aos-delay="100">
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      
+      <!-- Certification 1: InAmigos Foundation Internship -->
+      <div class="glass-card rounded-3xl p-6 flex flex-col justify-between border border-emerald-400/20 shadow-xl" data-aos="fade-up" data-aos-delay="100">
+        <div>
+          <div class="flex items-center gap-3 mb-4">
+            <div class="bg-emerald-400/20 p-2.5 rounded-xl">
+              <i class="fa-solid fa-briefcase text-3xl text-emerald-400"></i>
+            </div>
+            <span class="text-xs font-black bg-emerald-400 text-black px-3 py-1 rounded-full tracking-wider uppercase">INTERNSHIP</span>
+          </div>
+          <h3 class="text-lg font-extrabold text-white mb-1">Internship Completion Certificate</h3>
+          <p class="text-gray-300 text-xs font-medium mb-1">Role: <strong class="text-white">Web Development Intern</strong></p>
+          <p class="text-gray-300 text-xs font-medium mb-4">Organization: <strong class="text-white">InAmigos Foundation</strong>[cite: 5]</p>
+          <p class="text-gray-200 text-sm leading-relaxed mb-4">
+            Successfully completed the Web Development Internship at InAmigos Foundation[cite: 5], contributing to real-world web development tasks, responsive website design, AI-assisted development workflows, GitHub project management, and professional software development practices.
+          </p>
+        </div>
+        
+        <div class="mt-4 pt-4 border-t border-white/10 flex flex-col gap-3">
+          <div class="text-xs text-gray-400 flex justify-between items-center">
+            <span>Timeline: 28/05/2026 – 22/06/2026[cite: 5]</span>
+            <span>ID: IAF-WD-2026</span>
+          </div>
+          <a href="#" target="_blank" class="w-full text-center bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 font-semibold py-2 px-4 rounded-xl text-xs transition duration-300 flex items-center justify-center gap-2">
+            <i class="fa-solid fa-file-contract text-sm"></i> View Certificate
+          </a>
+        </div>
+      </div>
+
+      <!-- Certification 2: Java NPTEL -->
+      <div class="glass-card rounded-3xl p-6 flex flex-col justify-between border border-yellow-400/20 shadow-xl" data-aos="fade-up" data-aos-delay="200">
         <div>
           <div class="flex items-center gap-3 mb-4">
             <div class="bg-yellow-400/20 p-2.5 rounded-xl">
@@ -248,59 +277,60 @@
             <span class="text-xs font-black bg-yellow-400 text-black px-3 py-1 rounded-full tracking-wider">ELITE NPTEL</span>
           </div>
           <h3 class="text-lg font-extrabold text-white mb-2">Programming in Java</h3>
-          <p class="text-gray-300 text-xs font-medium mb-1">Issued by: <strong class="text-white">Indian Institute of Technology Kharagpur</strong></p>
-          <p class="text-gray-300 text-xs font-medium mb-4">Funded by the Ministry of Education, Govt. of India</p>
+          <p class="text-gray-300 text-xs font-medium mb-1">Issued by: <strong class="text-white">IIT Kharagpur</strong>[cite: 1]</p>
+          <p class="text-gray-300 text-xs font-medium mb-4">Funded by the Ministry of Education, Govt. of India[cite: 1]</p>
           <p class="text-gray-200 text-sm leading-relaxed">
-            Successfully completed the 12-week core course with an overall consolidated Elite score of <strong class="text-yellow-300">72%</strong>.
+            Successfully completed the 12-week core course[cite: 1] with an overall consolidated Elite score of <strong class="text-yellow-300">72%</strong>[cite: 1].
           </p>
         </div>
         <div class="mt-6 pt-4 border-t border-white/10 text-xs text-gray-400 flex justify-between">
-          <span>Jul-Oct 2025</span>
-          <span>ID: NPTEL25CS110S375002537</span>
+          <span>Jul-Oct 2025[cite: 1]</span>
+          <span>ID: NPTEL25CS110S...[cite: 1]</span>
         </div>
       </div>
 
-      <!-- Certification 2: HackerRank React -->
-      <div class="glass-card rounded-3xl p-6 flex flex-col justify-between border border-sky-400/20 shadow-xl" data-aos="fade-up" data-aos-delay="200">
+      <!-- Certification 3: HackerRank React -->
+      <div class="glass-card rounded-3xl p-6 flex flex-col justify-between border border-sky-400/20 shadow-xl" data-aos="fade-up" data-aos-delay="300">
         <div>
           <div class="flex items-center gap-3 mb-4">
             <div class="bg-sky-400/20 p-2.5 rounded-xl">
               <i class="fa-brands fa-react text-3xl text-sky-400"></i>
             </div>
-            <span class="text-xs font-black bg-sky-400 text-black px-3 py-1 rounded-full tracking-wider">HACKERRANK ROLE</span>
+            <span class="text-xs font-black bg-sky-400 text-black px-3 py-1 rounded-full tracking-wider">HACKERRANK</span>
           </div>
           <h3 class="text-lg font-extrabold text-white mb-2">Frontend Developer (React)</h3>
-          <p class="text-gray-300 text-xs font-medium mb-4">Issued by: <strong class="text-white">HackerRank Accomplishment</strong></p>
+          <p class="text-gray-300 text-xs font-medium mb-4">Issued by: <strong class="text-white">HackerRank Accomplishment</strong>[cite: 3]</p>
           <p class="text-gray-200 text-sm leading-relaxed">
-            Successfully cleared standard developer evaluations covering virtual DOM elements, advanced reactivity, hook structures, and component-based dynamic rendering.
+            Cleared standard developer evaluations covering virtual DOM elements, advanced reactivity, hook structures, and component-based dynamic rendering.
           </p>
         </div>
         <div class="mt-6 pt-4 border-t border-white/10 text-xs text-gray-400 flex justify-between">
-          <span>Earned: 15 Oct, 2025</span>
-          <span>ID: 495D7CA1D434</span>
+          <span>Earned: 15 Oct, 2025[cite: 3]</span>
+          <span>ID: 495D7CA1D434[cite: 3]</span>
         </div>
       </div>
 
-      <!-- Certification 3: HackerRank CSS -->
-      <div class="glass-card rounded-3xl p-6 flex flex-col justify-between border border-teal-400/20 shadow-xl" data-aos="fade-up" data-aos-delay="300">
+      <!-- Certification 4: HackerRank CSS -->
+      <div class="glass-card rounded-3xl p-6 flex flex-col justify-between border border-teal-400/20 shadow-xl" data-aos="fade-up" data-aos-delay="400">
         <div>
           <div class="flex items-center gap-3 mb-4">
             <div class="bg-teal-400/20 p-2.5 rounded-xl">
               <i class="fa-solid fa-code text-3xl text-teal-400"></i>
             </div>
-            <span class="text-xs font-black bg-teal-400 text-black px-3 py-1 rounded-full tracking-wider">HACKERRANK SKILL</span>
+            <span class="text-xs font-black bg-teal-400 text-black px-3 py-1 rounded-full tracking-wider">HACKERRANK</span>
           </div>
           <h3 class="text-lg font-extrabold text-white mb-2">CSS (Basic)</h3>
-          <p class="text-gray-300 text-xs font-medium mb-4">Issued by: <strong class="text-white">HackerRank Accomplishment</strong></p>
+          <p class="text-gray-300 text-xs font-medium mb-4">Issued by: <strong class="text-white">HackerRank Accomplishment</strong>[cite: 2]</p>
           <p class="text-gray-200 text-sm leading-relaxed">
             Validated styling and layout foundations, grid architectures, flexbox layouts, media queries, and adaptive viewport alignments.
           </p>
         </div>
         <div class="mt-6 pt-4 border-t border-white/10 text-xs text-gray-400 flex justify-between">
-          <span>Earned: 15 Oct, 2025</span>
-          <span>ID: 54C271DCD0FD</span>
+          <span>Earned: 15 Oct, 2025[cite: 2]</span>
+          <span>ID: 54C271DCD0FD[cite: 2]</span>
         </div>
       </div>
+
     </div>
   </section>
 
@@ -310,7 +340,7 @@
     <p class="text-center text-yellow-300 font-medium mb-12" data-aos="fade-up">Skill matrix ratings indicating current tech stack familiarity</p>
     
     <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-      <!-- Python Spotlight Card with specialized styling -->
+      <!-- Python Spotlight Card -->
       <div class="glass-card p-6 rounded-2xl flex flex-col justify-between items-start python-spotlight transition-transform duration-300 hover:scale-105" data-aos="flip-left">
         <div class="z-10 w-full">
           <div class="flex items-center justify-between w-full mb-3">
@@ -627,7 +657,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <script>
-  // STEP 1: INITIALIZE AOS ANIMATIONS IMMEDIATELY (Avoids blocking page layout rendering)
+  // STEP 1: INITIALIZE AOS ANIMATIONS
   try {
     AOS.init({
       duration: 800,
@@ -638,7 +668,7 @@
     console.warn("AOS animation setup failed to boot:", aosError);
   }
 
-  // STEP 2: TRY-CATCH WRAPPED THREE.JS ENGINE (Prevents page crash on unsupported environments)
+  // STEP 2: THREE.JS rendering engine
   try {
     const container = document.getElementById('canvas-container');
     const scene = new THREE.Scene();
@@ -720,7 +750,7 @@
     mouth.rotation.x = 0.2;
     boyFaceGroup.add(mouth);
 
-    // Set Initial Position in starting viewport
+    // Initial Position in starting viewport
     boyFaceGroup.position.set(0, 0.5, 0);
 
     // Helix Tunnel Setup
@@ -762,7 +792,7 @@
     const spiralTunnel = new THREE.Points(helixGeo, helixMat);
     scene.add(spiralTunnel);
 
-    // Set Default Camera Depth
+    // Camera Depth
     camera.position.z = 5;
 
     // Track scroll positions
@@ -773,7 +803,7 @@
       scrollPercent = window.scrollY / maxScroll;
     });
 
-    // Dynamic mouse parallax tracking
+    // Dynamic mouse tracking
     let mouseX = 0;
     let mouseY = 0;
     document.addEventListener('mousemove', (event) => {
@@ -781,14 +811,14 @@
       mouseY = (event.clientY / window.innerHeight) - 0.5;
     });
 
-    // WebGL Rendering Frame Loop
+    // Render loop
     function animate() {
       requestAnimationFrame(animate);
 
       boyFaceGroup.rotation.y += 0.005;
       spiralTunnel.rotation.z += 0.002;
 
-      // Handle transition steps based on scroll depth
+      // Handle transition steps
       if(scrollPercent < 0.25) {
         const faceProgress = scrollPercent / 0.25;
         boyFaceGroup.scale.set(1 + faceProgress * 4.5, 1 + faceProgress * 4.5, 1 + faceProgress * 4.5);
@@ -802,24 +832,22 @@
         hairMat.opacity = 0;
       }
 
-      // Smooth depth progression
+      // Depth progression
       const targetZ = 5 - (scrollPercent * 75);
       camera.position.z += (targetZ - camera.position.z) * 0.08;
       camera.rotation.z = scrollPercent * Math.PI * 4;
 
-      // Camera drift mapping cursor movements
+      // Camera drift
       camera.position.x += (mouseX * 1.5 - camera.position.x) * 0.05;
       camera.position.y += (-mouseY * 1.5 - camera.position.y) * 0.05;
 
       renderer.render(scene, camera);
     }
 
-    // Bind initialization
     window.onload = function() {
       animate();
     }
 
-    // Auto-adjust WebGL viewport dimensions on screen resize
     window.addEventListener('resize', () => {
       camera.aspect = window.innerWidth / window.innerHeight;
       camera.updateProjectionMatrix();
@@ -827,7 +855,7 @@
     });
 
   } catch (threeError) {
-    console.error("Three.js setup encountered a system error, fallback styles active:", threeError);
+    console.error("Three.js setup encountered an issue:", threeError);
   }
 
   // STEP 3: CARD PARALLAX ENGINE
